@@ -1,0 +1,15 @@
+{
+  "name": "sms-service",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pub/Sub push endpoint that processes lab reports for SMS delivery.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  }
+}
